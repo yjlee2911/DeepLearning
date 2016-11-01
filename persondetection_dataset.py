@@ -12,7 +12,7 @@ from keras.layers.convolutional import Convolution2D, MaxPooling2D
 seed = 7
 np.random.seed(seed)
 
-nameMap_person = {0:"person_train", 1:"nonperson_train"}    #컴퓨터 파일에 있는 이미지 파일을 로드하기 위해 파일 이름을 인덱스로 지정해둔다.
+nameMap_person = {0 : "person_train", 1 : "nonperson_train"}    #컴퓨터 파일에 있는 이미지 파일을 로드하기 위해 파일 이름을 인덱스로 지정해둔다.
 
 #train_data 변수에 총 3629개의 이미지에 대한 훈련데이터 셋을 구성.
 train_data = []
